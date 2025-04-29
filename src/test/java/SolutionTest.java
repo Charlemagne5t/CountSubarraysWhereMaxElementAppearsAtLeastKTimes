@@ -20,5 +20,14 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void test3(){
+        int[] nums = {61,23,38,23,56,40,82,56,82,82,82,70,8,69,8,7,19,14,58,42,82,10,82,78,15,82};
+        int k = 2;
+        long expected = 224;
+        long actual = new Solution().countSubarrays(nums, k);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
 
